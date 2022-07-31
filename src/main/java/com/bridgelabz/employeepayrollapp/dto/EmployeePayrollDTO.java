@@ -14,7 +14,7 @@ public @ToString class EmployeePayrollDTO {
     @Min(value = 500, message = "Salary should be more than 500")
     public long salary;
 
-    @Pattern(regexp = "female|male ", message = "Gender needs to be male or female")
+    @Pattern(regexp = "female|male", message = "Gender needs to be male or female")
     public String gender;
 
     @JsonFormat(pattern = "dd MMM yyyy")
