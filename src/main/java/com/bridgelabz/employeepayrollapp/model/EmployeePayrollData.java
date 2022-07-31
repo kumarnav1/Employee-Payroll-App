@@ -13,7 +13,7 @@ public @Data class EmployeePayrollData {
     private long salary;
 
     private String gender;
-    @JsonFormat(pattern = "dd MMM yyyy")
+
     private LocalDate startDate;
 
     private String note;
